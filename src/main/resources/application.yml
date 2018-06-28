@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  compression:
+    enabled: true
+
+logging:
+  level:
+    root: INFO
+    
+graphql:
+  servlet:
+    mapping: /graphql
+    enabled: true
+    corsEnabled: true
